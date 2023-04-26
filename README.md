@@ -1,7 +1,6 @@
 # damnbot
-Discord Bot made in NodeJS, using DIscord.JS V14.
+Discord Bot made in NodeJS, using Discord.JS V14.
 
-# README - Bot do Discord desenvolvido em Node.js
 
 Este é um bot do Discord desenvolvido em Node.js com base na biblioteca Discord.js v14. Ele usa várias APIs auxiliares, como Figlet, The Cat API, Generate Password e OpenAI API. O bot é capaz de executar vários comandos divididos em categorias.
 
@@ -46,7 +45,6 @@ Para executar o bot, é necessário criar um arquivo `config.json` na raiz do pr
 
 ---------------------------------------------------------
 
-# README - Discord Bot built with Node.js
 
 This is a Discord bot built with Node.js using the Discord.js v14 library. It uses various helper APIs such as Figlet, The Cat API, Generate Password, and OpenAI API. The bot is capable of executing several commands divided into categories.
 
