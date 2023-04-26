@@ -1,4 +1,4 @@
-const apiKey = 'live_xjGGJfHRN0WB0sbYzUXTtaiNIMEkFiLvhZDCVtPbJur3CkAmSZg06jjyYr8xxdnv';
+const apiKey = ''; // your api here
 const Discord = require('discord.js');
 
 module.exports = {
