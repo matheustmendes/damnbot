@@ -2,3 +2,4 @@ config.json
 baseC.js
 .eslintrc.json
 node_modules
+.env

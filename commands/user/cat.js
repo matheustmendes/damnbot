@@ -1,4 +1,4 @@
-const apiKey = ''; // your api here
+const apiKey = process.env.CAT_API_KEY; // your api here
 const Discord = require('discord.js');
 
 module.exports = {

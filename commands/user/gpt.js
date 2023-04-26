@@ -20,7 +20,7 @@ module.exports = {
     const string = options.getString('question');
     const configuration = new Configuration({
 
-      apiKey: '', // your api key here
+      apiKey: process.env.OPENAI_API_KEY, // your api key here
     });
 
     const openai = new OpenAIApi(configuration);
