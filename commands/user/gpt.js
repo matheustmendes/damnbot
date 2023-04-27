@@ -17,7 +17,6 @@ module.exports = {
 
   run: async (client, interaction) => {
     const { options } = interaction;
-    const string = options.getString('question');
     const configuration = new Configuration({
 
       apiKey: process.env.OPENAI_API_KEY, // your api key here
@@ -45,11 +44,6 @@ module.exports = {
         return `❌ Error... I can't answer that. Sorry. (${e.getResponse?.data?.error?.message})`;
       }
     };
-
-    const embed = new Discord.EmbedBuilder()
-      .setDescription(`Hi, here is my answer to you. ${getGPTResponse()}`)
-      .setColor('DarkButNotBlack')
-      .setTitle('damnAnswer');
 
     getGPTResponse(options.getString('question'))
       .then(async (response) => {
